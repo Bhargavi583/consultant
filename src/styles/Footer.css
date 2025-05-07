@@ -1,0 +1,44 @@
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+    border-top: none;
+    font-size: 0.95rem;
+  }
+  
+  .footer-logo {
+    width: 100px;
+    filter: brightness(0) invert(1); /* makes logo white if it's dark */
+  }
+  
+  .footer h5 {
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #ffffff;
+  }
+  
+  .footer a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer a:hover {
+    color: #007bff; /* change to your preferred hover color */
+    text-decoration: underline;
+  }
+  
+  .footer p,
+  .footer small {
+    color: #cccccc;
+  }
+  
+  @media (max-width: 576px) {
+    .footer {
+      text-align: center;
+    }
+  
+    .footer .col-md-4 {
+      margin-bottom: 20px;
+    }
+  }
+  

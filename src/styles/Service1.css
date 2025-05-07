@@ -1,0 +1,55 @@
+.services-page {
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* Gradient banner */
+  .consulting-section {
+    background: linear-gradient(to right, #1f4037, #99f2c8);
+  }
+  
+  .job-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .job-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .walkin-section {
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+  }
+  
+  .walkin-list li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 25px;
+    font-weight: 500;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-light {
+    border-radius: 25px;
+    color: #4e54c8;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 576px) {
+    .consulting-section h1 {
+      font-size: 1.8rem;
+    }
+  
+    .walkin-list {
+      font-size: 0.95rem;
+    }
+  }
+  

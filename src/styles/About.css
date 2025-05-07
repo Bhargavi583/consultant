@@ -1,0 +1,29 @@
+.intro-section {
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+  }
+  
+  .founder-img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #4e54c8;
+    transition: transform 0.3s ease;
+  }
+  
+  .founder-img:hover {
+    transform: scale(1.05);
+  }
+  
+  .video-container video {
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 576px) {
+    .founder-img {
+      width: 120px;
+      height: 120px;
+    }
+  }
+  
