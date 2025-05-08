@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import AdminLogin from './components/AdminLogin'; // adjust path if needed
 
 AOS.init();
 
@@ -17,8 +18,10 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Contact from './components/Contact';
 import PopupForm from './components/PopupForm';
-// import Service1 from './components/Service1.js';
-
+import Service1 from './components/Service1';
+import Service2 from './components/Service2';
+import Login from './components/AdminLogin';
+import Dashboard from './components/Dashboard';
 function Home() {
   return (
     <>
@@ -39,11 +42,15 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/Home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         {/* Add more routes like these if needed */}
          <Route path="/about" element={<About />} /> 
-        {/* <Route path="/service" element={<Service1 />} />  */}
+        <Route path="/service2" element={<Service2 />} /> 
+          <Route path="/service1" element={<Service1 />} />  
           <Route path="/contact" element={<Contact />} /> 
+          <Route path="/admin-login" element={<Login />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
       <Footer />
     </Router>

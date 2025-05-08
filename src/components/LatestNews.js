@@ -49,7 +49,7 @@ function LatestNews() {
       
 
         <div className="about-wrapper">
-        <p>Lastest News</p>
+        <p>Clients</p>
       <motion.h2 
         initial={{ opacity: 0, y: -30 }} 
         animate={{ opacity: 1, y: 0 }} 

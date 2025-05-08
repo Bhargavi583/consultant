@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Services1.css';
+import '../styles/Service1.css';
 import { Container, Row, Col, Button, Card } from 'react-bootstrap';
 
 const ServicesPage = () => {

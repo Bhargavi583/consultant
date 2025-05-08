@@ -1,0 +1,106 @@
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .sidebar button {
+    background: none;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .sidebar button:hover {
+    background-color: #495057;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .table-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-x: auto; /* Allow horizontal scrolling */
+  }
+  
+  .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Ensure that columns don't overflow */
+  }
+  
+  .table-container th,
+  .table-container td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    word-wrap: break-word;
+  }
+  
+  .table-container th {
+    background-color: #f8f9fa;
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-container {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      width: 100%;
+      height: auto;
+      padding: 10px;
+    }
+  
+    .sidebar button {
+      padding: 8px;
+      font-size: 14px;
+    }
+  
+    .content {
+      padding: 10px;
+    }
+  
+    .table-container {
+      padding: 10px;
+    }
+  
+    .table-container th,
+    .table-container td {
+      padding: 8px;
+      font-size: 14px;
+    }
+  
+    /* Make the table scrollable on small devices */
+    .table-container table {
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .table-container th,
+    .table-container td {
+      padding: 6px;
+      font-size: 12px;
+    }
+  }
+  

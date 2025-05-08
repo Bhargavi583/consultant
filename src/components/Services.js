@@ -1,10 +1,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import '../styles/Services.css'; // You can style it however you'd like
+import { useNavigate } from 'react-router-dom';
 
 const AboutCulture = () => {
+    const navigate = useNavigate();
+  
   return (
-    <div className="about-wrapper">
+    <div className='latest-news'>
+       <div className="about-wrapper">
         <p>Services</p>
       <motion.h2 
         initial={{ opacity: 0, y: -30 }} 
@@ -27,11 +31,13 @@ const AboutCulture = () => {
         initial={{ opacity: 0, scale: 0.9 }} 
         animate={{ opacity: 1, scale: 1 }} 
         transition={{ duration: 0.5, delay: 0.4 }}
-        onClick={() => alert("Navigate to culture page or section")}
+        onClick={() => navigate('/service1')}
       >
         see What We Can Do For You
       </motion.button>
     </div>
+    </div>
+    
   );
 };
 

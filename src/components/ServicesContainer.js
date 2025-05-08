@@ -13,11 +13,12 @@ const ServicesContainer = () => {
       >
         <h3>Find a Job</h3>
         <p>Explore opportunities that match your skills and ambitions. Start your next big move today.</p>
-        <img 
+       <a href="/service1" > <img 
           src="/services/job.png" 
           alt="Find a Job" 
-          className="column-image" 
-        />
+          className="column-image"   
+        /></a>
+       
       </motion.div>
 
       <motion.div 
@@ -28,11 +29,13 @@ const ServicesContainer = () => {
       >
         <h3>Hire a Talent</h3>
         <p>Access top tech professionals ready to drive results. Let us help you find the right match.</p>
-        <img 
+     <a href="/service2">
+     <img 
           src="/services/talent.png" 
           alt="Hire a Talent" 
           className="column-image" 
         />
+      </a>  
       </motion.div>
     </div>
   );

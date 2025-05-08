@@ -7,7 +7,7 @@ const AboutCulture = () => {
   const navigate = useNavigate();
 
   return (
-    <div>
+    <div className='latest-news'>
        <div className="about-wrapper">
         <p>About</p>
       <motion.h2 
@@ -37,13 +37,13 @@ const AboutCulture = () => {
       </motion.button>
      
     </div>
-       {/* <div className="image-container">
+        {/* <div className="image-container">
       <img
         src="/about.jpg"
         alt="Example"
         className="animated-image"
       />
-    </div> */}
+    </div>  */}
     </div>
    
   );

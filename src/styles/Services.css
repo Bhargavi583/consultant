@@ -1,0 +1,38 @@
+.about-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: center;  
+  }
+.latest-news{
+  background-image: linear-gradient(to bottom,#00ffcc,#007bff);
+}
+  
+  .about-wrapper h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-wrapper p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .explore-button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    background-color: #007bff;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .explore-button:hover {
+    background-color: #0056b3;
+  }
+  

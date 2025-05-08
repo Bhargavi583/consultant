@@ -23,12 +23,12 @@ const AboutUs = () => {
           <h2 className="text-center mb-5">Our Founders</h2>
           <div className="row text-center">
             <div className="col-md-6 mb-4">
-              <img src="/assets/images/founder1.jpg" alt="Founder 1" className="founder-img mb-3" />
+              <img src="/About/owner1.jpg" alt="Founder 1" className="founder-img mb-3" />
               <h5>John Doe</h5>
               <p>CEO & Co-Founder</p>
             </div>
             <div className="col-md-6 mb-4">
-              <img src="/assets/images/founder2.jpg" alt="Founder 2" className="founder-img mb-3" />
+              <img src="/About/owner2.jpg" alt="Founder 2" className="founder-img mb-3" />
               <h5>Jane Smith</h5>
               <p>COO & Co-Founder</p>
             </div>
